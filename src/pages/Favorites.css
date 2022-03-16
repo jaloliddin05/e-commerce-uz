@@ -1,0 +1,111 @@
+.favorites {
+  padding-top: 15px;
+}
+.favorites_container {
+  display: flex;
+  flex-direction: column;
+}
+.favorites_heading {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1c1c27;
+  margin-bottom: 20px;
+}
+.favorites_airdots_heading,
+.favorites_naushnik_heading {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #838383;
+}
+
+.favorites_list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: -30px;
+}
+.favorites_item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  padding: 15px 21.5px 32px;
+}
+.favorites_link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.favorites_item_heart {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.favorites_label {
+  position: absolute;
+  top: 14px;
+  left: 22px;
+  z-index: 5;
+}
+
+.favorites_heart_img_span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../images/unchecked_heart.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.favorites_heart_input:checked + .favorites_heart_img_span {
+  background: url("../images/checked_heart.svg");
+  background-repeat: no-repeat;
+}
+.favorites_item_body {
+  width: 307px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+
+.favorites_item_heading {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #1c1c27;
+}
+.favorites_span_star {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../images/star.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.favorites_item_rate {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #838383;
+}
+.favorites_item_cost {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #ffa542;
+}
+.none {
+  display: none;
+}

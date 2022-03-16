@@ -1,0 +1,208 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "chexol",
+      "color": "yellow",
+      "price": "65",
+      "material": {
+        "uz": "charm",
+        "ru": "Кожаные",
+        "en": "Leather"
+      },
+      "img": {
+        "main": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MKTQ3_AV05?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1622149489000",
+        "top": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MKTQ3_AV08?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1622149498000",
+        "right": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MKTQ3_AV09?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1622149507000",
+        "left": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MKTQ3_AV10_GEO_US?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1622149510000",
+        "bottom": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MKTQ3_AV02?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1622149499000"
+      },
+      "category": "chexol",
+      "info": "Designed by Apple to complement iPhone 12 | 12 Pro, the Leather Case with MagSafe is a delightful way to give your iPhone extra protection while adding style.&Made from specially tanned and finished leather, the outside feels soft to the touch and develops a natural patina over time. The case quickly snaps into place and fits snugly over your iPhone without adding bulk.&With built-in magnets that align perfectly with iPhone 12 | 12 Pro, the case offers a magical attach and detach experience, every time. The perfectly aligned magnets make wireless charging faster and easier than ever before. And when it’s time to charge, just leave the case on your iPhone and snap on your MagSafe charger, or set it on your Qi-certified charger.&Like every Apple-designed case, it undergoes thousands of hours of testing throughout the design and manufacturing process. So not only does it look great, it’s built to protect your iPhone from scratches and drops.&This case is made with high-quality, supple leather to protect your iPhone. Leather is a natural material and like a fine leather belt, it may show creases, marks, or a patina over time. Interaction with MagSafe accessories will leave slight imprints (as shown in the last image of the gallery). If you are concerned about this, we suggest you use an iPhone 12 | 12 Pro Silicone or Clear Case."
+    },
+    {
+      "id": 2,
+      "name": "chexol",
+      "color": "glass",
+      "price": "66",
+      "material": {
+        "uz": "stakan",
+        "ru": "Стеклянные",
+        "en": "glass"
+      },
+      "img": {
+        "main": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HPVB2?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1638486646000",
+        "top": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HPVB2_AV1?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1638486667000",
+        "right": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HPVB2_AV2?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1638486622000",
+        "left": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HPVB2_AV3?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1638486630000",
+        "bottom": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HPV92?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1638486614000"
+      },
+      "category": "chexol",
+      "info": "【Built-in 9H Glass Screen Protector】Only compatible with iPhone 13 Pro 2021 Release(6.1).protect your phone screen from scratching, cracking and enjoy the sensitive touch screen and crystal clear in long run&【Full Body Protection】 360 complete fullbody protection. Cushion corners enhanced security to survive from accident drops at 1.5m-high&【Stylish Bumper & Transparent Back】Crystal clear back to show off the real color of your iPhone 13 pro case and stylish bumper to highlight the design&【Easy to Install】Push your phone into the front cover first then the back case. Make sure no gap between the screen protector and your phone. Separate the case from the slot at right lower corner&Come and get replacement if screen protector cracked when delivered"
+    },
+    {
+      "id": 3,
+      "name": "chexol",
+      "color": "yellow",
+      "price": "64",
+      "material": {
+        "uz": "Silikon",
+        "ru": "Силиконовые",
+        "en": "Silicone"
+      },
+      "img": {
+        "main": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HPWZ2?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1638486968000",
+        "top": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HPWY2_AV2?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1638486912000",
+        "right": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HPWY2_AV1?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1638486904000",
+        "left": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HPWY2_AV3?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1638486939000",
+        "bottom": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HPWY2?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1638486937000"
+      },
+      "category": "chexol",
+      "info": "Designed by Apple to complement iPhone 13 Pro, the Silicone Case with MagSafe is a delightful way to protect your iPhone.&The silky, soft-touch finish of the silicone exterior feels great in your hand. And on the inside, there’s a soft microfiber lining for even more protection.&With built-in magnets that align perfectly with iPhone 13 Pro, this case offers a magical attach experience and faster wireless charging, every time. When it’s time to charge, just leave the case on your iPhone and snap on your MagSafe charger, or set it on your Qi-certified charger.&Like every Apple-designed case, it undergoes thousands of hours of testing throughout the design and manufacturing process. So not only does it look great, it’s built to protect your iPhone from scratches and drops."
+    },
+
+    {
+      "id": 4,
+      "name": "Apple BYZ S852I",
+      "price": "19.00 ",
+      "rate": "4.5",
+      "img": {
+        "main": "http://sc04.alicdn.com/kf/Hde118420f6e04f22a61ba794b4545910B.png",
+        "top": "https://avatars.mds.yandex.net/get-mpic/5346847/img_id1670166106558222535.jpeg/orig",
+        "right": "http://sc04.alicdn.com/kf/H8bd32718ff124422aeb4aeec2da24fc5I.jpg",
+        "left": "https://images.satu.kz/175278649_w640_h640_naushniki-byz-s858i.jpg",
+        "bottom": "https://images.satu.kz/175277217_w640_h640_naushniki-byz-s858t.jpg"
+      },
+      "category": "naushnik",
+      "info": "Тип устройства : проводные наушники & Конструкция : вкладыши & Минимальная воспроизводимая частота: 20 Гц & Максимальная воспроизводимая частота: 20000 Гц & Импеданс : 32 Ом & Чувствительность : 105 дБ & Максимальная мощность : 10 мВт & Функции : регулировка громкости"
+    },
+    {
+      "id": 5,
+      "name": "Apple EarPods",
+      "price": "49.99",
+      "rate": "4.7",
+      "img": {
+        "main": "https://www.fixshop.eu/media/product_image/1100013874_5605469285234690823.jpg",
+        "top": "https://www.fixshop.eu/media/product_image/1100027056_-8830322905075698620.jpg",
+        "right": "https://m.media-amazon.com/images/I/4157dLhc2gL._AC_SS450_.jpg",
+        "left": "https://oskelly.ru/blog/wp-content/uploads/2018/12/apple_earpods-fake-vs-real.jpg",
+        "bottom": "https://i5.walmartimages.com/asr/cb99fe96-e284-43ea-b17b-f6fb4b3aec0f_1.e754dcb8f88b8e47333d9a0ccf7fbd35.jpeg"
+      },
+      "category": "naushnik",
+      "info": "Unlike traditional, circular earbuds, the design of the EarPods is defined by the geometry of the ear. Which makes them more comfortable for more people than any other earbud-style headphones.&The speakers inside the EarPods have been engineered to maximize sound output and minimize sound loss, which means you get high-quality audio.&The speakers inside the EarPods have been engineered to maximize sound output and minimize sound loss, which means you get high-quality audio."
+    },
+    {
+      "id": 6,
+      "name": "Apple EarPods",
+      "price": "29.00 ",
+      "rate": "4.6",
+      "img": {
+        "main": "https://cdn.comfy.ua/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/a/p/apple_earpods_with_mic_lightning_mmtn2zm_a_.jpg",
+        "top": "https://i5.walmartimages.com/asr/cb99fe96-e284-43ea-b17b-f6fb4b3aec0f_1.e754dcb8f88b8e47333d9a0ccf7fbd35.jpeg",
+        "right": "https://m.media-amazon.com/images/I/4157dLhc2gL._AC_SS450_.jpg",
+        "left": "https://oskelly.ru/blog/wp-content/uploads/2018/12/apple_earpods-fake-vs-real.jpg",
+        "bottom": "https://i5.walmartimages.com/asr/cb99fe96-e284-43ea-b17b-f6fb4b3aec0f_1.e754dcb8f88b8e47333d9a0ccf7fbd35.jpeg"
+      },
+      "category": "naushnik",
+      "info": "Unlike traditional, circular earbuds, the design of the EarPods is defined by the geometry of the ear. Which makes them more comfortable for more people than any other earbud-style headphones.&The speakers inside the EarPods have been engineered to maximize sound output and minimize sound loss, which means you get high-quality audio.&The speakers inside the EarPods have been engineered to maximize sound output and minimize sound loss, which means you get high-quality audio."
+    },
+
+    {
+      "id": 7,
+      "name": "AirPods Pro",
+      "price": "29.00 ",
+      "rate": "4.6",
+      "img": {
+        "main": "https://mediapark.uz/upload/file/mp/products/Naushniki/Apple_AirPods_Pro.jpg",
+        "top": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Apple_airpods_pro.jpg/800px-Apple_airpods_pro.jpg",
+        "right": "https://c.ua/image/cache/catalog/products/000012676/25352-500x500.jpg",
+        "left": "https://lap.kz/wp-content/uploads/2020/10/a4a9ef04efb0b797aba2c635b0567aaa-1000x1000-1.jpg",
+        "bottom": "https://vintagestores.com.ng/wp-content/uploads/2021/01/MWP22.jpg"
+      },
+      "category": "air_dots",
+      "info": "Если у вас несколько устройств Apple, наушники будут выбирать нужный источник звука, автоматически переключаясь между iPhone, Apple Watch, iPad, Mac и Apple TV.&Как и любые другие AirPods, AirPods Pro абсолютно волшебно работают с iPhone и Apple Watch.&Пройдите специальный тест — правильно подобранные вкладыши гарантируют лучшую блокировку внешних шумов и оптимальное звучание.&Благодаря функции «Совместный доступ к аудио» вы сможете слушать песни, подкасты и любое другое аудио через две пары "
+    },
+    {
+      "id": 8,
+      "name": "Beats Studio Buds",
+      "price": "29.00 ",
+      "rate": "4.6",
+      "img": {
+        "main": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MJ503_AV4?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1621538331000",
+        "top": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MJ503_AV3_v4?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1621538274000",
+        "right": "https://content.rozetka.com.ua/goods/images/big/198269519.jpg",
+        "left": "https://jabko.ua/image/catalog/products/2021/08/091529/14.jpg",
+        "bottom": "https://shop.apcom.eu/public/content-images/ms/product/mj503zma-03_big.jpg"
+      },
+      "category": "air_dots",
+      "info": "Height: 2.55 cm / 1 in. (case) 1.5 cm / 0.59 in. (bud)&Length: 7.2 cm / 2.83 in. (case) 2.05 cm / 0.81 in. (bud)&Width: 5.1 cm / 2 in. (case) 1.85 cm / 0.73 in. (bud)&Weight: 48g (case) 5g (bud) 58g (total)&Other Features: Active Noise Cancelling, Bluetooth, Sports & Fitness, Wireless&Form Factor: In Ear&Connections: Bluetooth, Wireless&Power Source: Battery&Batteries: Rechargeable lithium-ion"
+    },
+    {
+      "id": 9,
+      "name": "Beats Fit Pro True Wireless",
+      "price": "39.00 ",
+      "rate": "4.6",
+      "img": {
+        "main": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MK2J3_AV2?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1634663509000",
+        "top": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MK2J3_AV3?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1634663510000",
+        "right": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MK2J3_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1634663494000",
+        "left": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MK2J3_AV5?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1634663502000",
+        "bottom": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MK2J3?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1634663503000"
+      },
+      "category": "air_dots",
+      "info": "Flexible, secure-fit wingtips for all-day comfort and stability & Custom acoustic platform delivers powerful, balanced sound & Spatial Audio with dynamic head tracking for immersive music, movies, and games & Two distinct listening modes: Active Noise Cancelling and Transparency Mode & Enhanced by the Apple H1 chip for Automatic Switching, Audio Sharing (with another pair of Beats headphones or Apple AirPods), and “Hey Siri” & Up to 6 hours of listening time (up to 24 hours combined with pocket-sized charging case"
+    },
+    {
+      "id": 10,
+      "name": "Beats Flex Yellow ",
+      "price": "29.00 ",
+      "rate": "4.6",
+      "img": {
+        "main": "https://microless.com/cdn/products/381bac8db94262e9eb23b55004825b83-hi.jpg",
+        "top": "https://shop.apcom.eu/public/content-images/ms/product/mymd2zma-05_big.jpg",
+        "right": "https://shop.apcom.eu/public/content-images/ms/product/mymd2zma-06_big.jpg",
+        "left": "https://shop.apcom.eu/public/content-images/ms/product/mymd2zma-04_big.jpg",
+        "bottom": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MYMD2_AV7?wid=2000&hei=2000&fmt=jpeg&qlt=80&.v=1601053180000"
+      },
+      "category": "air_dots",
+      "info": "Less charging. More flexing. Beats Flex boasts up to 12 hours of listening time for all-day use. If you need a little extra power, 10-minute Fast Fuel charging gives 1.5 hours of playback when battery is low.² & Stay connected no matter where your day takes you. With Class 1 Bluetooth® technology, Beats Flex offers extended wireless range and fewer dropouts. An advanced built-in microphone helps reduce wind noise for elevated voice clarity and call performance. On-device controls allow you to adjust volume as well as manage music, take calls, or activate voice assistant. & Height: 0.6 in / 1.6 cm & Length: 34 in / 86.4 cm & Width: 4.2 in / 10.6 cm"
+    },
+    {
+      "id": 11,
+      "name": "Over‑Ear Headphones",
+      "price": "209.00 ",
+      "rate": "4.8",
+      "img": {
+        "main": "https://service.pcconnection.com/images/inhouse/9A156D6A-3CBD-42B1-84DB-095BD57DC9B3.jpg",
+        "top": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MX412_AV3?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1580420171832",
+        "right": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MX412?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1580420170758",
+        "left": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MX412_AV2?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1580420171267",
+        "bottom": "https://m.media-amazon.com/images/I/31EM36j8tQL._AC_SY350_.jpg"
+      },
+      "category": "air_dots",
+      "info": "Deep, accurate bass response,Extended frequency range, Rechargeable & Deep, accurate bass response,Extended frequency range, Rechargeable & 5-button control, including Play/pause/answer/hangup,Equalizer,Next track/volume up, Previous track/volume down & Ear cups fit around ears to help isolate audio, Foldable design for easy carry, noise canceling design & Micro SD card plug-in, built in Radio receiver, Built in Mic for Hands Free calling & New: 6 MONTHS!! exchange warranty! If your headset breaks or is damaged for any reason, Pranx will provide you with a FREE replacement!"
+    },
+    {
+      "id": 12,
+      "name": "Apple EarPods",
+      "price": "29.00 ",
+      "rate": "4.6",
+      "img": {
+        "main": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MX432_AV4?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1570119317332",
+        "top": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MX432_AV3?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1570119317805",
+        "right": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MX432_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1570119312106",
+        "left": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MX432?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1570119317387",
+        "bottom": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MX432_AV6?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1570119319978"
+      },
+      "category": "air_dots",
+      "info": "Deep, accurate bass response,Extended frequency range, Rechargeable & Deep, accurate bass response,Extended frequency range, Rechargeable & 5-button control, including Play/pause/answer/hangup,Equalizer,Next track/volume up, Previous track/volume down & Ear cups fit around ears to help isolate audio, Foldable design for easy carry, noise canceling design & Micro SD card plug-in, built in Radio receiver, Built in Mic for Hands Free calling & New: 6 MONTHS!! exchange warranty! If your headset breaks or is damaged for any reason, Pranx will provide you with a FREE replacement!"
+    }
+  ]
+}

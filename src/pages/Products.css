@@ -1,0 +1,125 @@
+/* .products_selected {
+} */
+.products_container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding-top: 11px;
+  padding-bottom: 27px;
+}
+.products_container1_top,
+.products_container1_bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* .heart {
+} */
+.product_img_box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.product_images {
+  margin-left: 30px;
+}
+.products_container1_bottom {
+  margin-top: 38px;
+}
+.product_name {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #1c1c27;
+}
+.product_price {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #df6464;
+}
+.products_container2 {
+  display: flex;
+  margin-top: 23px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.products_container2_left {
+  width: 824px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f9f9f9;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.overview_top {
+  width: 100%;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1c1c27;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 20px 22px;
+}
+.overview_list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  background-color: #f9f9f9;
+  padding: 20px 10px;
+}
+.overview_item {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #1c1c27;
+}
+.overview_item + .overview_item {
+  margin-top: 10px;
+}
+.products_container2_right {
+  display: flex;
+  flex-direction: column;
+}
+.buy_product {
+  display: inline-block;
+  background: #101010;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 13px 86px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+.korzinka_product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 13px;
+  background: #101010;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.korzinka_img {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url("../images/korzinka_products.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
