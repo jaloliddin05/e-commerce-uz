@@ -12,7 +12,7 @@ const Korzinka = () => {
   const onDelete = (i) => {
     let index = korzinka.findIndex((kr) => String(kr.id) === String(i));
     korzinka.splice(index, 1);
-    window.localStorage.setItem("korzinka", JSON.stringify(korzinka));
+    window.localStorage.setItem("korzinka", JSON.stringify(korzinka) || []);
     document.location.reload();
   };
 
