@@ -1,11 +1,30 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import "./Checkout.css";
 import { Link, Outlet } from "react-router-dom";
 import checkout_map from "../images/checkout_map.png";
 import { Context } from "../Context/Context";
 
 const Checkout = () => {
-  const { totalCost } = useContext(Context);
+  const { totalCost, adminInfo, setAdminInfo } = useContext(Context);
+  let [gorod, setGorod] = useState("");
+  let [street, setStreet] = useState("");
+  let [dom, setDom] = useState("");
+  let [podez, setPodez] = useState("");
+  let [kvart, setKvart] = useState("");
+
+  function onForm(evt) {
+    evt.preventDefault();
+    let obj = {
+      // id: adminInfo[adminInfo.length - 1].id + 1 || 0,
+      gorod: gorod,
+      street: street,
+      dom: dom,
+      podez: podez,
+      kvart: kvart,
+    };
+    setAdminInfo((el) => [...el, obj]);
+    window.localStorage.setItem("info", JSON.stringify(adminInfo));
+  }
 
   return (
     <section className="checkout">
@@ -27,8 +46,11 @@ const Checkout = () => {
               <span className="location_img"></span>
               Адрес доставки
             </p>
-            <form className="checkout_form">
-              <select name="" id="" className="checkout_select">
+            <form onSubmit={onForm} className="checkout_form">
+              <select
+                onChange={(e) => setGorod(e.target.value)}
+                className="checkout_select"
+              >
                 <option defaultValue="Город " value="">
                   Город
                 </option>
@@ -40,18 +62,27 @@ const Checkout = () => {
                 type="text"
                 className="street_input"
                 placeholder="Улица / Район"
+                onChange={(e) => setStreet(e.target.value)}
               />
-              <input type="text" className="dom_input" placeholder="Дом" />
+              <input
+                type="text"
+                className="dom_input"
+                placeholder="Дом"
+                onChange={(e) => setDom(e.target.value)}
+              />
               <input
                 type="text"
                 className="podezd_input"
                 placeholder="Подъезд"
+                onChange={(e) => setPodez(e.target.value)}
               />
               <input
                 type="text"
                 className="kvartira_input"
                 placeholder="Квартира"
+                onChange={(e) => setKvart(e.target.value)}
               />
+              <button type="submit" className="kvartira_input"></button>
             </form>
           </div>
         </div>
@@ -62,7 +93,7 @@ const Checkout = () => {
               {JSON.parse(window.localStorage.getItem("korzinka"))?.map(
                 (krz) => {
                   return (
-                    <li className="checkout_right_top_item">
+                    <li key={krz.id} className="checkout_right_top_item">
                       <p className="checkout_right_top_item_name">
                         {`${krz.totalOrder}x   ${krz.name}`}
                       </p>
@@ -119,7 +150,6 @@ const Checkout = () => {
           </Link>
         </div>
       </div>
-      <Outlet />
     </section>
   );
 };

@@ -15,6 +15,7 @@ function Provider({ children }) {
   );
   const [chooseProduct, setChooseProduct] = useState({});
   const [totalCost, setTotalCost] = useState(0);
+  let [adminInfo, setAdminInfo] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:3004/products")
@@ -37,6 +38,8 @@ function Provider({ children }) {
         setKorzinka,
         totalCost,
         setTotalCost,
+        adminInfo,
+        setAdminInfo,
       }}
     >
       {children}

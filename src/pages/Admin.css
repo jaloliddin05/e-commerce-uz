@@ -1,0 +1,79 @@
+.admin_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 1);
+  z-index: 20;
+}
+.form_admin {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.in {
+  width: 300px;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 5px 2px rgba(255, 255, 0, 0.856);
+  margin-top: 10px;
+  background-color: transparent;
+  color: yellow;
+  font-size: 18px;
+}
+.in_name {
+  position: absolute;
+  top: 20px;
+  left: -85px;
+  color: yellow;
+  font-size: 18px;
+}
+.in_lastName {
+  position: absolute;
+  top: 70px;
+  left: -85px;
+  color: yellow;
+  font-size: 18px;
+}
+.in_password {
+  position: absolute;
+  top: 120px;
+  left: -85px;
+  color: yellow;
+  font-size: 18px;
+}
+
+.admin_list {
+  list-style: none;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.admin_item {
+  color: #000;
+  margin-left: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 10px;
+}
+.none {
+  display: none;
+}
+.admin_container2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  background-color: #fff;
+  padding: 40px 40px;
+  z-index: 20;
+}
