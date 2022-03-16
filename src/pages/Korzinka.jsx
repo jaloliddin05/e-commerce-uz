@@ -18,7 +18,8 @@ const Korzinka = () => {
 
   return (
     <section className="korzinka_uz">
-      {JSON.parse(window.localStorage.getItem("korzinka"))?.length > 0 ? (
+      {JSON.parse(window.localStorage.getItem("korzinka"))?.length > 0 ||
+      JSON.parse(window.localStorage.getItem("korzinka")) !== null ? (
         <div className="container korzinka_uz_container">
           <ul className="korzinka_list">
             {JSON.parse(window.localStorage.getItem("korzinka")).map((krz) => {
