@@ -12,14 +12,13 @@ const Korzinka = () => {
   const onDelete = (i) => {
     let index = korzinka.findIndex((kr) => String(kr.id) === String(i));
     korzinka.splice(index, 1);
-    window.localStorage.setItem("korzinka", JSON.stringify(korzinka) || null);
+    window.localStorage.setItem("korzinka", JSON.stringify(korzinka));
     document.location.reload();
   };
 
   return (
     <section className="korzinka_uz">
-      {JSON.parse(window.localStorage.getItem("korzinka"))?.length > 0 ||
-      JSON.parse(window.localStorage.getItem("korzinka")) !== null ? (
+      {JSON.parse(window.localStorage.getItem("korzinka"))?.length > 0 ? (
         <div className="container korzinka_uz_container">
           <ul className="korzinka_list">
             {JSON.parse(window.localStorage.getItem("korzinka")).map((krz) => {
