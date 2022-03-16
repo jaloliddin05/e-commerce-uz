@@ -33,7 +33,7 @@ const Dotsnaushnik = () => {
     like = like.filter((item) =>
       !names.has(JSON.stringify(item)) ? names.add(JSON.stringify(item)) : false
     );
-
+    window.localStorage.setItem("likeD", JSON.stringify(like));
     setLikedAirDots(like);
   }
 

@@ -33,16 +33,24 @@ const Contacts = () => {
         </div>
         <div className="contacts_right">
           <div className="messanger_contacts_box">
-            <img src={wt_up} alt="" width={40} height={40} />
+            <a href="https://www.youtube.com/" target="_blank">
+              <img src={wt_up} alt="" width={40} height={40} />
+            </a>
           </div>
           <div className="messanger_contacts_box">
-            <img src={vk} alt="" width={54} height={36} />
+            <a href="https://www.youtube.com/" target="_blank">
+              <img src={vk} alt="" width={54} height={36} />
+            </a>
           </div>
           <div className="messanger_contacts_box">
-            <img src={insta} alt="" width={40} height={40} />
+            <a href="https://www.youtube.com/" target="_blank">
+              <img src={insta} alt="" width={40} height={40} />
+            </a>
           </div>
           <div className="messanger_contacts_box">
-            <img src={tg} alt="" width={49} height={49} />
+            <a href="https://www.youtube.com/" target="_blank">
+              <img src={tg} alt="" width={49} height={49} />
+            </a>
           </div>
         </div>
       </div>

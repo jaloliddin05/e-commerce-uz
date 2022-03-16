@@ -25,6 +25,7 @@
 }
 .location_img {
   margin-right: 14px;
+  display: inline-block;
 }
 .etaj_kobinent {
   font-weight: 500;

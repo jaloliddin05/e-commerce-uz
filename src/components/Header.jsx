@@ -4,7 +4,7 @@ import { Link, Outlet } from "react-router-dom";
 import { Context } from "../Context/Context";
 
 const Header = () => {
-  let { likedNaushnik, likedAirDots } = useContext(Context);
+  let { likedNaushnik, likedAirDots, korzinka } = useContext(Context);
 
   return (
     <>
@@ -31,7 +31,7 @@ const Header = () => {
               {likedNaushnik.length + likedAirDots.length}
             </span>
             <Link to="/korzinka" className="korzinka_btn"></Link>
-            <span className="korzinka_num">0</span>
+            <span className="korzinka_num">{korzinka.length}</span>
           </div>
         </div>
       </header>

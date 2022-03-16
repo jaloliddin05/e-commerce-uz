@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { Outlet, Link } from "react-router-dom";
 import { Context } from "../Context/Context";
 import logo from "../images/products_logo.svg";
 import "./Products.css";
@@ -89,13 +90,16 @@ const Products = () => {
           </ul>
         </div>
         <div className="products_container2_right">
-          <button className="buy_product">Купить!</button>
+          <Link to="/ordering" className="buy_product">
+            Купить!
+          </Link>
           <button onClick={onClickKorzinka} className="korzinka_product">
             <span className="korzinka_img"></span>
             Добавить в корзину
           </button>
         </div>
       </div>
+      <Outlet />
     </section>
   );
 };

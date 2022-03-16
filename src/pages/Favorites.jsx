@@ -45,7 +45,7 @@ const Favorites = () => {
             onClick={onClickUlP}
             className="favorites_list_air_dots favorites_list"
           >
-            {likedAirDots?.map((likeP) => {
+            {JSON.parse(window.localStorage.getItem("likeD"))?.map((likeP) => {
               return (
                 <li key={likeP.id} className="favorites_item">
                   <label className="favorites_label">
@@ -96,7 +96,7 @@ const Favorites = () => {
             onClick={onClickUlN}
             className="favorites_list_air_naushnik favorites_list"
           >
-            {likedNaushnik?.map((likeN) => {
+            {JSON.parse(window.localStorage.getItem("likeN"))?.map((likeN) => {
               return (
                 <li key={likeN.id} className="favorites_item">
                   <label className="favorites_label">

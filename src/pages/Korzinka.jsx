@@ -37,9 +37,9 @@ const Korzinka = () => {
           <div className="korzinka_right">
             <div className="korzinka_right_top">
               <p className="total_cost_desc">ИТОГО</p>
-              <p className="total_cost">{totalCost}</p>
+              <p className="total_cost">{totalCost}$</p>
             </div>
-            <Link to="/" className="korzinka_right_link">
+            <Link to="/ordering" className="korzinka_right_link">
               Перейти к оформлению
             </Link>
           </div>

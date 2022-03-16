@@ -30,7 +30,7 @@ const Naushnik = () => {
     like = like.filter((item) =>
       !names.has(JSON.stringify(item)) ? names.add(JSON.stringify(item)) : false
     );
-
+    window.localStorage.setItem("likeN", JSON.stringify(like));
     setLikedNaushnik(like);
   }
 

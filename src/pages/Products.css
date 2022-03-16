@@ -91,6 +91,7 @@
   flex-direction: column;
 }
 .buy_product {
+  text-decoration: none;
   display: inline-block;
   background: #101010;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);

@@ -4,8 +4,12 @@ const Context = createContext();
 
 function Provider({ children }) {
   const [products, setProducts] = useState([]);
-  const [likedAirDots, setLikedAirDots] = useState([]);
-  const [likedNaushnik, setLikedNaushnik] = useState([]);
+  const [likedAirDots, setLikedAirDots] = useState(
+    JSON.parse(window.localStorage.getItem("likeD")) || []
+  );
+  const [likedNaushnik, setLikedNaushnik] = useState(
+    JSON.parse(window.localStorage.getItem("likeN")) || []
+  );
   const [korzinka, setKorzinka] = useState(
     JSON.parse(window.localStorage.getItem("korzinka")) || []
   );
