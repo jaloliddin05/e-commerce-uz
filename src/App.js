@@ -9,6 +9,7 @@ import Contacts from "./pages/Contacts";
 import Korzinka from "./pages/Korzinka";
 import Checkout from "./pages/Checkout";
 import Conclusion from "./pages/Conclusion";
+import Admin from "./pages/Admin";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/korzinka" element={<Korzinka />} />
           <Route path="/ordering" element={<Checkout />} />
           <Route path="/conclusion" element={<Conclusion />} />
+          <Route path="/admin" element={<Admin />} />
         </Routes>
       </main>
       <Footer />
