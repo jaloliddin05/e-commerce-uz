@@ -80,28 +80,24 @@ const Footer = () => {
         <div className="footer_messangers">
           <a
             href="https://www.youtube.com/"
-            target="_blank"
             className="vk_link footer_messanger_img"
           >
             <img src={vk} alt="" width={30} height={30} />
           </a>
           <a
             href="https://www.youtube.com/"
-            target="_blank"
             className="instagram_link footer_messanger_img"
           >
             <img src={insta} alt="" width={30} height={30} />
           </a>
           <a
             href="https://www.youtube.com/"
-            target="_blank"
             className="telegram_link footer_messanger_img"
           >
             <img src={tg} alt="" width={30} height={30} />
           </a>
           <a
             href="https://www.youtube.com/"
-            target="_blank"
             className="whats_up_link footer_messanger_img"
           >
             <img src={wt_up} alt="" width={30} height={30} />
