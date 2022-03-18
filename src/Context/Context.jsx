@@ -18,7 +18,7 @@ function Provider({ children }) {
   let [adminInfo, setAdminInfo] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3004/products")
+    fetch("https://e-commerce-my-uz.herokuapp.com/products")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
